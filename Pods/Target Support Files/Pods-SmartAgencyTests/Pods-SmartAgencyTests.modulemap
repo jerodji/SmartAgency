@@ -1,0 +1,6 @@
+framework module Pods_SmartAgencyTests {
+  umbrella header "Pods-SmartAgencyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
