@@ -21,7 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = navi;
         self.window?.makeKeyAndVisible();
         
-        
         return true
     }
 
