@@ -22,6 +22,7 @@ class RootVC: UIViewController {
         homeEnglishTitle = "English Title"
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
