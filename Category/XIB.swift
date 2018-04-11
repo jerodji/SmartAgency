@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol LoadXIB {
+protocol LoadXIBView {
     
 }
 
-extension LoadXIB where Self : UIView {
+extension LoadXIBView where Self : UIView {
 //    static func loadViewFromXIB(_ nibName:String? = nil) -> (Self) {
 //        let loadName = nibName == nil ? "\(self)" : nibName!
 //        return Bundle.main.loadNibNamed(loadName, owner: nil, options: nil)?.first as! Self
