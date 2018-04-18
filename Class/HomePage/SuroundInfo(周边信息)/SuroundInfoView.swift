@@ -11,7 +11,7 @@ import UIKit
 let SuroundInfoDistance = CGFloat(15.0)
 let SuroundInfoSizeScale = CGFloat((ScreenW-30.0)/345.0)
 
-class SuroundInfoView: UIView,LoadXIB {
+class SuroundInfoView: UIView,LoadXIBView {
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)

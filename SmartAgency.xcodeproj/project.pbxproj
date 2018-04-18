@@ -32,12 +32,14 @@
 		38F9CB7F203016A1004D105D /* SmartAgencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F9CB7E203016A1004D105D /* SmartAgencyUITests.swift */; };
 		5EF829073CCA4B08E9A7747A /* Pods_SmartAgencyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F620F8776BF59E7F8BFF6A0 /* Pods_SmartAgencyTests.framework */; };
 		B9D758CEBEB329CAA0B76E16 /* Pods_SmartAgencyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1D3C63E5DF090C996B12EB /* Pods_SmartAgencyUITests.framework */; };
+		FA5F7DB82080627700B0A763 /* IncomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F7DB72080627700B0A763 /* IncomeModel.swift */; };
+		FA5F7DBA20807A9C00B0A763 /* IncomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F7DB920807A9C00B0A763 /* IncomeVM.swift */; };
 		FAB099D3203B25FA00898BD3 /* NaviTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB099D2203B25FA00898BD3 /* NaviTitleView.swift */; };
 		FAB099D5203BFF5000898BD3 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB099D4203BFF5000898BD3 /* ReminderView.swift */; };
 		FAB099D7203BFF5A00898BD3 /* ReminderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB099D6203BFF5A00898BD3 /* ReminderView.xib */; };
 		FAB099D9203C00D400898BD3 /* XIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB099D8203C00D400898BD3 /* XIB.swift */; };
-		FAB099DB203C114700898BD3 /* IncomeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB099DA203C114700898BD3 /* IncomeInfoView.swift */; };
-		FAB099DD203C115200898BD3 /* IncomeInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB099DC203C115200898BD3 /* IncomeInfoView.xib */; };
+		FAB099DB203C114700898BD3 /* IncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB099DA203C114700898BD3 /* IncomeView.swift */; };
+		FAB099DD203C115200898BD3 /* IncomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB099DC203C115200898BD3 /* IncomeView.xib */; };
 		FAB099DF203C5D3A00898BD3 /* FinanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB099DE203C5D3A00898BD3 /* FinanceView.swift */; };
 		FAB099E1203C5D4400898BD3 /* FinanceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB099E0203C5D4400898BD3 /* FinanceView.xib */; };
 		FAB099E3203C5DAF00898BD3 /* SuroundInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB099E2203C5DAF00898BD3 /* SuroundInfoView.swift */; };
@@ -107,12 +109,14 @@
 		707B2D021AD981409EBAE30C /* Pods-SmartAgencyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartAgencyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartAgencyTests/Pods-SmartAgencyTests.release.xcconfig"; sourceTree = "<group>"; };
 		9F620F8776BF59E7F8BFF6A0 /* Pods_SmartAgencyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartAgencyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9D6E1385E48CC0EE753F75 /* Pods-SmartAgencyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartAgencyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartAgencyUITests/Pods-SmartAgencyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA5F7DB72080627700B0A763 /* IncomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeModel.swift; sourceTree = "<group>"; };
+		FA5F7DB920807A9C00B0A763 /* IncomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeVM.swift; sourceTree = "<group>"; };
 		FAB099D2203B25FA00898BD3 /* NaviTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviTitleView.swift; sourceTree = "<group>"; };
 		FAB099D4203BFF5000898BD3 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
 		FAB099D6203BFF5A00898BD3 /* ReminderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderView.xib; sourceTree = "<group>"; };
 		FAB099D8203C00D400898BD3 /* XIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIB.swift; sourceTree = "<group>"; };
-		FAB099DA203C114700898BD3 /* IncomeInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeInfoView.swift; sourceTree = "<group>"; };
-		FAB099DC203C115200898BD3 /* IncomeInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IncomeInfoView.xib; sourceTree = "<group>"; };
+		FAB099DA203C114700898BD3 /* IncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeView.swift; sourceTree = "<group>"; };
+		FAB099DC203C115200898BD3 /* IncomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IncomeView.xib; sourceTree = "<group>"; };
 		FAB099DE203C5D3A00898BD3 /* FinanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceView.swift; sourceTree = "<group>"; };
 		FAB099E0203C5D4400898BD3 /* FinanceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinanceView.xib; sourceTree = "<group>"; };
 		FAB099E2203C5DAF00898BD3 /* SuroundInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuroundInfoView.swift; sourceTree = "<group>"; };
@@ -246,14 +250,6 @@
 			path = HomePage;
 			sourceTree = "<group>";
 		};
-		38255B3C2031A29400FD989A /* PublicDefine */ = {
-			isa = PBXGroup;
-			children = (
-				38255B3D2031A2DE00FD989A /* PublicDefine.swift */,
-			);
-			path = PublicDefine;
-			sourceTree = "<group>";
-		};
 		38255B3F20327E1200FD989A /* Reminder(温馨提示) */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,8 +280,10 @@
 		38255BDD2032CD8300FD989A /* IncomeInfo(账户收益) */ = {
 			isa = PBXGroup;
 			children = (
-				FAB099DA203C114700898BD3 /* IncomeInfoView.swift */,
-				FAB099DC203C115200898BD3 /* IncomeInfoView.xib */,
+				FAB099DA203C114700898BD3 /* IncomeView.swift */,
+				FAB099DC203C115200898BD3 /* IncomeView.xib */,
+				FA5F7DB920807A9C00B0A763 /* IncomeVM.swift */,
+				FA5F7DB72080627700B0A763 /* IncomeModel.swift */,
 			);
 			path = "IncomeInfo(账户收益)";
 			sourceTree = "<group>";
@@ -302,13 +300,12 @@
 		38F9CB52203016A1004D105D = {
 			isa = PBXGroup;
 			children = (
-				38F9CB5D203016A1004D105D /* SmartAgency */,
 				38F9CB8D20301F5E004D105D /* Class */,
 				38255B1920319B4300FD989A /* Utils */,
-				38255B3C2031A29400FD989A /* PublicDefine */,
 				38F9CB8C20301F54004D105D /* Category */,
 				38F9CB8E20301F72004D105D /* Base */,
 				38255B172031993800FD989A /* Resource */,
+				38F9CB5D203016A1004D105D /* SmartAgency */,
 				38F9CB72203016A1004D105D /* SmartAgencyTests */,
 				38F9CB7D203016A1004D105D /* SmartAgencyUITests */,
 				38F9CB5C203016A1004D105D /* Products */,
@@ -330,11 +327,12 @@
 		38F9CB5D203016A1004D105D /* SmartAgency */ = {
 			isa = PBXGroup;
 			children = (
+				38255B3D2031A2DE00FD989A /* PublicDefine.swift */,
 				38F9CB5E203016A1004D105D /* AppDelegate.swift */,
 				38255B15203198AB00FD989A /* AppDelegateIM.swift */,
+				38F9CB6A203016A1004D105D /* Info.plist */,
 				38F9CB62203016A1004D105D /* Main.storyboard */,
 				38F9CB67203016A1004D105D /* LaunchScreen.storyboard */,
-				38F9CB6A203016A1004D105D /* Info.plist */,
 			);
 			path = SmartAgency;
 			sourceTree = "<group>";
@@ -489,7 +487,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = SaBai;
+				ORGANIZATIONNAME = Sabuy;
 				TargetAttributes = {
 					38F9CB5A203016A1004D105D = {
 						CreatedOnToolsVersion = 9.2;
@@ -539,7 +537,7 @@
 				FAB099E5203C5DB800898BD3 /* SuroundInfoView.xib in Resources */,
 				38F9CB66203016A1004D105D /* Assets.xcassets in Resources */,
 				38F9CB64203016A1004D105D /* Main.storyboard in Resources */,
-				FAB099DD203C115200898BD3 /* IncomeInfoView.xib in Resources */,
+				FAB099DD203C115200898BD3 /* IncomeView.xib in Resources */,
 				FAB099E1203C5D4400898BD3 /* FinanceView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,11 +597,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SmartAgency/Pods-SmartAgency-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -722,8 +722,10 @@
 				38255B0620318F1400FD989A /* BaseUIViewController.swift in Sources */,
 				38255B16203198AB00FD989A /* AppDelegateIM.swift in Sources */,
 				FAB099D5203BFF5000898BD3 /* ReminderView.swift in Sources */,
-				FAB099DB203C114700898BD3 /* IncomeInfoView.swift in Sources */,
+				FAB099DB203C114700898BD3 /* IncomeView.swift in Sources */,
 				38255BE72032D64800FD989A /* MyInfoVC.swift in Sources */,
+				FA5F7DBA20807A9C00B0A763 /* IncomeVM.swift in Sources */,
+				FA5F7DB82080627700B0A763 /* IncomeModel.swift in Sources */,
 				38255B2A20319B8600FD989A /* UIColor+HexString.m in Sources */,
 				38255B3120319DB400FD989A /* RootVC.swift in Sources */,
 				38F9CB5F203016A1004D105D /* AppDelegate.swift in Sources */,
@@ -907,15 +909,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = JR7BAVX2XH;
+				DEVELOPMENT_TEAM = DTAH3ND7QH;
 				INFOPLIST_FILE = SmartAgency/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_SWIFT_FLAGS[arch=*]" = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hailin.agency;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerod.agency;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "021088f8-2417-45db-9a79-0c393efe6be8";
-				PROVISIONING_PROFILE_SPECIFIER = DEV_agency;
+				PROVISIONING_PROFILE = "95175f74-080c-4250-8633-8ca7c9c9d641";
+				PROVISIONING_PROFILE_SPECIFIER = JJDEV;
 				SWIFT_OBJC_BRIDGING_HEADER = "Category/SmartAgency-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -929,16 +931,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = JR7BAVX2XH;
+				DEVELOPMENT_TEAM = DTAH3ND7QH;
 				INFOPLIST_FILE = SmartAgency/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hailin.agency;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerod.agency;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9faf4715-3629-4bcc-8884-1c57887a1e23";
-				PROVISIONING_PROFILE_SPECIFIER = DIS_agency;
+				PROVISIONING_PROFILE = "95175f74-080c-4250-8633-8ca7c9c9d641";
+				PROVISIONING_PROFILE_SPECIFIER = JJDEV;
 				SWIFT_OBJC_BRIDGING_HEADER = "Category/SmartAgency-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

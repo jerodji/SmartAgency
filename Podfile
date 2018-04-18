@@ -19,5 +19,6 @@ target 'SmartAgency' do
 
 pod 'AFNetworking'
 pod 'SDWebImage'
+pod 'MJExtension', '~> 3.0.13'
 
 end

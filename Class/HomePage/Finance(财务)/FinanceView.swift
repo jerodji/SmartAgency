@@ -11,7 +11,7 @@ import UIKit
 let FinanceDistance = CGFloat(15.0)
 let FinanceSizeScale = CGFloat((ScreenW-30.0)/345.0)
 
-class FinanceView: UIView,LoadXIB {
+class FinanceView: UIView,LoadXIBView {
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)

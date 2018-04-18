@@ -79,18 +79,22 @@ class RootVC: UIViewController {
         let headView = HeadTopView.init(frame: CGRect(x: 0, y: 0, width: ScreenW, height: 148.0*SizeScale))
         self.view.addSubview(headView)
         
-        let incomeView = IncomeInfoView.loadFromXIB()
+        //income
+        let incomeView = IncomeView.loadFromXIB()
         incomeView.frame = CGRect(x: IncomeInfoDistance, y: 75, width: ScreenW-2*IncomeInfoDistance, height: 300*IncomeInfoSizeScale)
         self.view.addSubview(incomeView)
         
+        //finance
         let financeView = FinanceView.loadFromXIB()
         financeView.frame = CGRect.init(x: FinanceDistance, y: incomeView.bottom+10, width: ScreenW-2*FinanceDistance, height: 85*FinanceSizeScale)
         self.view.addSubview(financeView)
         
+        //sround info
         let suroundView = SuroundInfoView.loadFromXIB()
         suroundView.frame = CGRect.init(x: SuroundInfoDistance, y: financeView.bottom+10, width: ScreenW-2*SuroundInfoDistance, height: 85*SuroundInfoSizeScale)
         self.view.addSubview(suroundView)
         
+        //remind info
         let remindView = ReminderView.loadFromXIB()
         remindView.frame = CGRect(x: (ScreenW-320.0)/2.0, y: (ScreenH-TabbarH), width: 320, height: 25)
         self.view.addSubview(remindView)

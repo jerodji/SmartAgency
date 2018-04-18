@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ReminderView: UIView,LoadXIB {
+class ReminderView: UIView,LoadXIBView {
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
